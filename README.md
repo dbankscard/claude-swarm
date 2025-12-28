@@ -10,8 +10,15 @@ Orchestrate multiple Claude Code agents from your terminal or within Claude Code
 ## Installation
 
 ```bash
-cd ~/claude-swarm
 pip install -e .
+```
+
+The `claude-swarm` command will be installed to your Python bin directory. If it's not in your PATH, add it:
+
+```bash
+# Add Python user bin to PATH (macOS/Linux)
+echo 'export PATH="$PATH:$(python3 -m site --user-base)/bin"' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ## Quick Start
