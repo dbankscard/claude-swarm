@@ -2,6 +2,11 @@
 
 Orchestrate multiple Claude Code agents from your terminal or within Claude Code sessions.
 
+## Requirements
+
+- **Python** >= 3.10
+- **[Claude Code](https://claude.ai/code)** - Must be installed and available in your PATH
+
 ## Installation
 
 ```bash
