@@ -27,7 +27,7 @@ classifiers = [
 claude-swarm = "claude_swarm.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/dbanks/claude-swarm"
+Homepage = "https://github.com/dbankscard/claude-swarm"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/claude_swarm"]
